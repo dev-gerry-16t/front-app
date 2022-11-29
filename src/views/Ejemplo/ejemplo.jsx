@@ -32,7 +32,7 @@ const Ejemplo = () => {
     let textTranslated = "";
     if (isEmpty(text) === false) {
       const translate = await fetch(
-        "https://translation.googleapis.com/language/translate/v2?source=la&target=es&key=AIzaSyBwWOmV2W9QVm7lN3EBK4wCysj2sLzPhiQ",
+        "https://translation.googleapis.com/language/translate/v2?source=la&target=es&key=AIzaSyAqdenr1S9NN0LpVzRVP1JQkUL_ux0Qr54",
         {
           method: "POST",
           body: JSON.stringify({ q: text }),
