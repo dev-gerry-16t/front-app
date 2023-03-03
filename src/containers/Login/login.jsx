@@ -17,7 +17,7 @@ const Login = () => {
     try {
       //Ejecutaria un api de inicio de sesión
       localStorage.setItem("username", dataForm.username); //Almacenaria en Redux la información del usuario
-      navigate("/demo/inicio");
+      navigate("/selecciona");
     } catch (error) {
       //Pondria un mensaje de error
     }

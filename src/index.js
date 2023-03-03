@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+// import 'flag-icon-css/css/flag-icons.css';
 import './index.css';
+import './assets/css/flags.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

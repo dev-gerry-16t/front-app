@@ -12,12 +12,24 @@ const Login = Loadable({
   loading,
 });
 
+const Choose = Loadable({
+  loader: () => import("./views/ChoseProyect/chooseProyect"),
+  loading,
+});
+
+const GPCCourse = Loadable({
+  loader: () => import("./views/GPC/gpcCourse"),
+  loading,
+});
+
 const App=() =>{
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/selecciona" element={<Choose />} />
+        <Route path="/examen_final" element={<GPCCourse />} />
         <Route path="/demo/*" element={<DefaultLayout />} />
       </Routes>
     </BrowserRouter>
